@@ -1,0 +1,36 @@
+# ALT + CTRL + R
+
+GET http://localhost:3000/
+
+### GET Request ###
+GET http://localhost:3000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+
+
+
+### POST Request ###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john@example.com"
+}
+
+###########################################################################
+######################### For Other Application ###########################
+
+### POST Request ###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john@example.com"
+}
+
+
+
+
+
+
